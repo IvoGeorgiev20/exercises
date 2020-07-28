@@ -4,7 +4,8 @@ int main()
 {
     char grade = 'B';
 
-    switch(grade){
+    switch(grade)
+    {
     case 'A':  printf("SWeAT! \n");
                break;
     case 'B':  printf("Could have tried harder \n");

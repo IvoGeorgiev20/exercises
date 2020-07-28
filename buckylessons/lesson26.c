@@ -9,14 +9,15 @@ int main()
 
     printf("Press 0 when complete. \n\n");
 
-    do{
+    do
+      {
         printf("Tests:%.0f Avarage:%.2f \n", numberOfTests, avarage);
         printf("\nEnter test score: ");
         scanf("%f", &scoreEntered);
         grade += scoreEntered;
         avarage = grade / numberOfTests;
       }
-    while(scoreEntered != 0);
+    while (scoreEntered != 0);
 
     return 0;
 }
