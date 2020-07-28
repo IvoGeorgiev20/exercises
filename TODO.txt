@@ -1,8 +1,8 @@
 Fix lesson08.c DONE
 Fix lesson09.c formatting DONE
-Can lesson10.c even compile? 
 Fix lesson12.c missing include macros DONE
-Why do you include stdlib.h in lesson15.c? DONE 
+Fix lesson14.c DONE
+Why do you include stdlib.h in lesson15.c? DONE
 Fix lesson18.c missing include macros DONE
 Fix lesson19.c missing include macrosDONE
 Why are lesson18.c and lesson19.c the same? DONE 
@@ -18,10 +18,9 @@ Fix lesson30.c formatting DONE
 Fix lesson32.c formatting DONE
 Fix lesson33.c formatting DONE
 Fix lesson36.c formatting DONE
-Fix lesson38.c formatting 
+Fix lesson38.c formatting TODO
 Fix lesson39.c formatting DONE
 Fix lesson40.c formatting
-Does lesson40.c even compile? DONE
 Fix lesson43.c formatting DONE
 Does lesson44.c even compile? DONE
 
