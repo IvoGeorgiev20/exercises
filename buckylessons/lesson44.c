@@ -7,7 +7,8 @@ int main()
 
     printf("Element \t Address \t Value \n");
 
-    for(i=0; i<5; i++){
+    for(i=0; i<5; i++)
+    {
         printf("\nmeatBalls[%d] \t \%p \n", &meatballs[i], meatballs[i]);
     }
 
