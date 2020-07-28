@@ -8,8 +8,8 @@ int main()
     printf ("Enter your age\n");
     scanf ("%f", &age3);
 
-    average = (age1 + age2 + age3) / 3;
-    printf ("The avarage age of the group is %f\n", average);
+    avarage = (age1 + age2 + age3) / 3;
+    printf ("The avarage age of the group is %f\n", avarage);
 
     return 0;
 }
