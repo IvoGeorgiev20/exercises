@@ -7,9 +7,8 @@ int main()
 
     for(i=0; i<20; i++)
     {
-    diceroll = ( rand()%6 ) +i;
-    printf("%d \n", diceroll);
+        diceroll = ( rand()%6 ) +i;
+        printf("%d \n", diceroll);
     }
-
     return 0;
 }

@@ -10,18 +10,16 @@ int main()
     flaot bestPPG = 0.0;
     int bestPlayer;
 
-    for (i=0; i<5; i++)
-    {
+    for (i=0; i<5; i++){
         pgg[i] = (float) goals[i] / (float)gamesPlayed[i];
         printf("%d \t %d \t %d \t %.2f \n", player[i], goals[i], gamesPlayed[i], pgg[i]);
-        if(ppg[i] > beatPPG)
-        {
-        beatPPG = pgg[i];
-        bestPlayer = player[i];
+        if(ppg[i] > beatPPG){
+            beatPPG = pgg[i];
+            bestPlayer = player[i];
         }
     }
-
     printf("\nThe best player is %d \n", bestPlayer);
 
     return 0;
+
 }

@@ -11,12 +11,11 @@ int main()
 
     for(a=1; a<maxAmount; a++)
     {
-    printf("%d\n", a);
+        printf("%d\n", a);
 
-    if(a==howMany)
-    {
-    break;
+        if(a==howMany){
+            break;
+        }
     }
- }
- return 0;
+    return 0;
 }
