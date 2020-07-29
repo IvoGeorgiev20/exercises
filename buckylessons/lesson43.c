@@ -14,7 +14,7 @@ int main()
 
     *pTuna = 71;
 
-   printf("\n*pTuna: %d \n", *pTuna);
+    printf("\n*pTuna: %d \n", *pTuna);
 
     return 0;
 }
