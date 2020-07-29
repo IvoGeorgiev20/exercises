@@ -7,11 +7,15 @@ int main()
     if( isalpha(tuna) )
     {
         printf("%c is a letter", tuna);
-    }else{
+    }
+    else
+    {
     if(isdigit(tuna) )
     {
         printf("%c is a number, tuna");
-    }else{
+    }
+    else
+    {
         printf("%c is a OMG WTF is sthat!?", tuna);
     }
     }
