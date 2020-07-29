@@ -1,25 +1,17 @@
-lesson08.c fix formatting DONE
-lesson27.c fix formatting DONE
-lesson28.c fix formatting DONE
-lesson29.c fix formatting DONE
-lesson30.c fix formatting DONE
-lesson32.c fix formatting DONE
-... Didn't bother to check, but probably you have to also fix:
-lesson33.c formatting DONE
-lesson36.c formatting DONE
-lesson38.c formatting DONE
-lesson39.c formatting DONE
-lesson40.c formatting DONE
-lesson43.c formatting DONE
+exercise3.c: TODO: fix formatting
 
-You must include string.h in files: DONE
+lesson09.c - има нужда да се добави string.h, поради наличието на strcpy и char
+lesson34.c - има нужда да се добави string.h, поради наличието на strcat и char
+lesson35.c - има нужда да се добави string.h, поради наличието на strcat и char
+lesson41.c - има нужда да се добави string.h, поради наличието на strcat и char
 
-  lesson09.c - има нужда да се добави string.h, поради наличието на strcpy и char
-  lesson34.c - има нужда да се добави string.h, поради наличието на strcat и char
-  lesson35.c - има нужда да се добави string.h, поради наличието на strcat и char
-  lesson41.c - има нужда да се добави string.h, поради наличието на strcat и char
+string.h е нужен за strcpy и strcat, но не е нужен за char - разбираш?
 
-  Explain why. <----- Explain why!
-  Explain why. <----- Explain why!
-  Explain why. <----- Explain why!
-  Explain why. <----- Explain why!
+exercies2.c:
+
+  1. Make an array.
+
+  2. Put all the numbers in the array, using a loop.
+
+  3. Print number from the array, one by one, using a loop, start
+     starting from the last number.

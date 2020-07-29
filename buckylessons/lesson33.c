@@ -14,9 +14,9 @@ int main()
         {
             printf("%c is an lower case letter", tuna);
         }
-        }
-        else
-        {
+    }
+    else
+      {
         if(isdigit(tuna) )
         {
             printf("%c is a number, tuna");

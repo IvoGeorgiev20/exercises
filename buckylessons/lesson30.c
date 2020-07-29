@@ -6,14 +6,15 @@ int main()
 
     do
     {
-        if(num==6 || num==8)
+        if (num==6 || num==8)
         {
             num++;
             continue
         }
-        printf("%d is  available \n", num);
+        printf ("%d is  available \n", num);
         num++;
-    }while(num<=10);
+    }
+    while (num<=10);
 
     return 0;
 }
