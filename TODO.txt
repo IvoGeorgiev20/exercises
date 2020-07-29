@@ -6,3 +6,12 @@ lesson35.c - има нужда да се добави string.h, поради н�
 lesson41.c - има нужда да се добави string.h, поради наличието на strcat и char
 
 string.h е нужен за strcpy и strcat, но не е нужен за char - разбираш?
+
+exercies2.c:
+
+  1. Make an array.
+
+  2. Put all the numbers in the array, using a loop.
+
+  3. Print number from the array, one by one, using a loop, start
+     starting from the last number.
