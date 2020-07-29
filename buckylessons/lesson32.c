@@ -10,14 +10,15 @@ int main()
     }
     else
     {
-    if(isdigit(tuna) )
-    {
-        printf("%c is a number, tuna");
+        if (isdigit (tuna))
+        {
+            printf("%c is a number, tuna");
+        }
+        else
+        {
+            printf("%c is a OMG WTF is sthat!?", tuna);
+        }
     }
-    else
-    {
-        printf("%c is a OMG WTF is sthat!?", tuna);
-    }
-    }
+
     return 0;
 }
