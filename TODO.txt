@@ -1,15 +1,15 @@
-lesson08.c fix formatting NOT DONE
-lesson27.c fix formatting NOT DONE
-lesson28.c fix formatting NOT DONE
-lesson29.c fix formatting NOT DONE
-lesson30.c fix formatting NOT DONE
-lesson32.c fix formatting NOT DONE
+lesson08.c fix formatting DONE
+lesson27.c fix formatting DONE
+lesson28.c fix formatting DONE
+lesson29.c fix formatting DONE
+lesson30.c fix formatting DONE
+lesson32.c fix formatting DONE
 ... Didn't bother to check, but probably you have to also fix:
-lesson33.c formatting NOT DONE
+lesson33.c formatting DONE
 lesson36.c formatting NOT DONE
-lesson38.c formatting NOT DONE
-lesson39.c formatting NOT DONE
-lesson40.c formatting NOT DONE
+lesson38.c formatting DONE
+lesson39.c formatting DONE
+lesson40.c formatting DONE
 lesson43.c formatting NOT DONE
 
 You must include string.h in files: NOT DONE

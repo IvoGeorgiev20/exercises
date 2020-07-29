@@ -1,18 +1,16 @@
 #include<stdio.h>
 #include<conio.h>
 
-void main(){
+void main()
+{
+    int n, multiply;
+    printf("Enter first number - ");
+    scanf("%d",&n);
 
-int n, multiply;
+    multiply = n * n;
 
-printf("Enter first number - ");
+    printf("The multiplication of numbers %d and %d is %d",n , n, multiply);
 
-scanf("%d",&n);
-
-multiply = n * n;
-
-printf("The multiplication of numbers %d and %d is %d",n , n, multiply);
-
-getch();
+    getch();
 
 }
