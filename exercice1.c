@@ -16,9 +16,9 @@ int main()
         if(minimum > arr[i])
         {
             minimum = arr[i];
-            }
-            if(maximum < arr[i])
-            {
+        }
+        if(maximum < arr[i])
+        {
             maximum = arr[i];
         }
     }
