@@ -6,11 +6,11 @@ lesson30.c fix formatting DONE
 lesson32.c fix formatting DONE
 ... Didn't bother to check, but probably you have to also fix:
 lesson33.c formatting DONE
-lesson36.c formatting NOT DONE
+lesson36.c formatting DONE
 lesson38.c formatting DONE
 lesson39.c formatting DONE
 lesson40.c formatting DONE
-lesson43.c formatting NOT DONE
+lesson43.c formatting DONE
 
 You must include string.h in files: NOT DONE
 
