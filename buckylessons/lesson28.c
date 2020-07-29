@@ -6,12 +6,11 @@ int main()
     int rows;
     for(rows=1; rows<=5; rows++)
     {
-        for(columns=1; columns<=4; columns++){
+       for(columns=1; columns<=4; columns++)
+       {
         printf("%d ", columns);
-        }
-
-        printf("\n");
-
+       }
+       printf("\n");
     }
 
     return 0;

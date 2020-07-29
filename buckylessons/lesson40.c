@@ -14,11 +14,10 @@ int main()
     {
         pgg[i] = (float) goals[i] / (float)gamesPlayed[i];
         printf("%d \t %d \t %d \t %.2f \n", player[i], goals[i], gamesPlayed[i], pgg[i]);
-
         if(ppg[i] > beatPPG)
         {
-            beatPPG = pgg[i];
-            bestPlayer = player[i];
+        beatPPG = pgg[i];
+        bestPlayer = player[i];
         }
     }
 

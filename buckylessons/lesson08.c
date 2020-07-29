@@ -1,9 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
 
-int main ()
-{
-    char name[13] = "Ivo Georgiev";
-    printf ("My name is %s\n", name);
+void main(){
 
-    return 0;
+int n, multiply;
+
+printf("Enter first number - ");
+
+scanf("%d",&n);
+
+multiply = n * n;
+
+printf("The multiplication of numbers %d and %d is %d",n , n, multiply);
+
+getch();
+
 }
