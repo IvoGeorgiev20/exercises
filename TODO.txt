@@ -1,34 +1,25 @@
-Fix lesson08.c DONE
-Fix lesson09.c formatting DONE
-Fix lesson12.c missing include macros DONE
-Fix lesson14.c DONE
-Why do you include stdlib.h in lesson15.c? DONE
-Fix lesson18.c missing include macros DONE
-Fix lesson19.c missing include macrosDONE
-Why are lesson18.c and lesson19.c the same? DONE 
-lesson23.c seems like it would produce wrong output: DONE
-  "I have 86 friendss."
-  Why?  Fix it.
-Fix lesson25.c formatting DONE
-Fix lesson26.c formatting DONE
-Fix lesson27.c formatting DONE
-Fix lesson28.c formatting DONE
-Fix lesson29.c formatting DONE
-Fix lesson30.c formatting DONE
-Fix lesson32.c formatting DONE
-Fix lesson33.c formatting DONE
-Fix lesson36.c formatting DONE
-Fix lesson38.c formatting TODO
-Fix lesson39.c formatting DONE
-Fix lesson40.c formatting
-Fix lesson43.c formatting DONE
-Does lesson44.c even compile? DONE
+lesson08.c fix formatting NOT DONE
+lesson27.c fix formatting NOT DONE
+lesson28.c fix formatting NOT DONE
+lesson29.c fix formatting NOT DONE
+lesson30.c fix formatting NOT DONE
+lesson32.c fix formatting NOT DONE
+... Didn't bother to check, but probably you have to also fix:
+lesson33.c formatting NOT DONE
+lesson36.c formatting NOT DONE
+lesson38.c formatting NOT DONE
+lesson39.c formatting NOT DONE
+lesson40.c formatting NOT DONE
+lesson43.c formatting NOT DONE
 
-You must include string.h in files: DONE
+You must include string.h in files: NOT DONE
 
   lesson09.c
   lesson34.c
   lesson35.c
   lesson41.c
 
-  Explain why.
+  Explain why. <----- Explain why!
+  Explain why. <----- Explain why!
+  Explain why. <----- Explain why!
+  Explain why. <----- Explain why!

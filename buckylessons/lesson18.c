@@ -19,7 +19,8 @@ int main()
         {
             printf ("dude");
         }
-        if (gender == 'f'){
+        if (gender == 'f')
+        {
             printf ("m'lady");
         }
 
