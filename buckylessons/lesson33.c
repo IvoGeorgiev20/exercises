@@ -9,7 +9,9 @@ int main()
         if(isupper(tuna) )
         {
             printf("%c is an upper case letter", tuna);
-        }else{
+        }
+        else
+        {
             printf("%c is an lower case letter", tuna);
         }
         }
