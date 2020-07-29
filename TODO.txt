@@ -12,12 +12,12 @@ lesson39.c formatting DONE
 lesson40.c formatting DONE
 lesson43.c formatting DONE
 
-You must include string.h in files: NOT DONE
+You must include string.h in files: DONE
 
-  lesson09.c
-  lesson34.c
-  lesson35.c
-  lesson41.c
+  lesson09.c - има нужда да се добави string.h, поради наличието на strcpy и char
+  lesson34.c - има нужда да се добави string.h, поради наличието на strcat и char
+  lesson35.c - има нужда да се добави string.h, поради наличието на strcat и char
+  lesson41.c - има нужда да се добави string.h, поради наличието на strcat и char
 
   Explain why. <----- Explain why!
   Explain why. <----- Explain why!
