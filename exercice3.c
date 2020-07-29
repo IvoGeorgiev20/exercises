@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-int main(){
-
+int main()
+{
     int one;
     int two;
     int multiply;
