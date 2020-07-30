@@ -1,9 +1,9 @@
 #include <stdio.h>
-
+#define array 100
 int main()
 {
     int n;
-    int arr[n];
+    int arr[array];
     int i;
     int max;
     int min;
