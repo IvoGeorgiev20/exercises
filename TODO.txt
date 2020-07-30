@@ -1,13 +1,13 @@
-exercise3.c: TODO: fix formatting
+exercise3.c: TODO: fix formatting DONE
 
-lesson09.c - има нужда да се добави string.h, поради наличието на strcpy и char
-lesson34.c - има нужда да се добави string.h, поради наличието на strcat и char
-lesson35.c - има нужда да се добави string.h, поради наличието на strcat и char
-lesson41.c - има нужда да се добави string.h, поради наличието на strcat и char
+lesson09.c - има нужда да се добави string.h, поради наличието на strcpy 
+lesson34.c - има нужда да се добави string.h, поради наличието на strcat 
+lesson35.c - има нужда да се добави string.h, поради наличието на strcat 
+lesson41.c - има нужда да се добави string.h, поради наличието на strcat
 
 string.h е нужен за strcpy и strcat, но не е нужен за char - разбираш?
-
-exercies2.c:
+Да, разбирам
+exercies2.c: DONE
 
   1. Make an array.
 
