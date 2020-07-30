@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define array 100
+
 int main()
 {
     int n;
