@@ -1,33 +1,44 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
     int n;
-    int sum = 0;
-    scanf("%d", &n);
     int arr[n];
-    int minimum;
-    int maximum;
+    int i;
+    int max;
+    int min;
+    int sum = 0;
 
-    for(int i = 0; i < n; i++)
+    printf("Enter size of the array: ");
+    scanf("%d", &n);
+
+    printf("Enter elements in the array: ");
+    for(i=0; i<n; i++)
     {
         scanf("%d", &arr[i]);
         sum = sum + arr[i];
-        if(minimum > arr[i])
-        {
-            minimum = arr[i];
-        }
-        if(maximum < arr[i])
-        {
-            maximum = arr[i];
-        }
     }
 
+    max = arr[0];
+    min = arr[0];
+
+    for(i=1; i<n; i++)
+    {
+        if(arr[i] > max)
+        {
+            max = arr[i];
+        }
+        if(arr[i] < min)
+        {
+            min = arr[i];
+        }
+
+    }
     float mean = (float) sum / n;
-    printf("sum is: %d\n", sum);
     printf("mean is: %f\n", mean);
-    printf("min is: %d\n", minimum);
-    printf("max is: %d\n", maximum);
+    printf("sum is: %d\n", sum);
+    printf("Maximum element = %d\n", max);
+    printf("Minimum element = %d", min);
 
     return 0;
 }
