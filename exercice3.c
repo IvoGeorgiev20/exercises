@@ -16,6 +16,6 @@ int main()
 
     printf("The multiplication of numbers %d and %d is %d",one,two,multiply);
 
-return 0;
+    return 0;
 
 }
