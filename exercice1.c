@@ -27,7 +27,7 @@ int main()
     printf("sum is: %d\n", sum);
     printf("mean is: %f\n", mean);
     printf("min is: %d\n", minimum);
-    printf("max is: = %d\n", maximum);
+    printf("max is: %d\n", maximum);
 
     return 0;
 }
