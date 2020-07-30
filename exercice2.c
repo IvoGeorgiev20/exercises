@@ -1,18 +1,22 @@
 #include <stdio.h>
+
 int main()
 {
+    int arr[100];
     int n;
-    int rev = 0;
-    int remainder;
-    printf("Enter an integer: ");
-    scanf("%d", &n);
-    while (n != 0)
+    int i;
+
+    printf("Enter elements in array: ");
+    for(i=0; i<n; i++)
     {
-        remainder = n % 10;
-        rev = rev * 10 + remainder;
-        n /= 10;
+        scanf("%d", &arr[i]);
     }
-    printf("Reversed number = %d", rev);
+
+    printf("Array in reverse order: ");
+    for(i = n-1; i>=0; i--)
+    {
+        printf("%d", arr[i]);
+    }
 
     return 0;
 }
