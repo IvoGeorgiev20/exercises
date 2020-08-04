@@ -1,22 +1,23 @@
 #include<stdio.h>
 
-n = 5
-1*2 3*4 5*6 7*8 9*10
 int main()
 {
     int n;
-    int two;
-    int multiply;
+    printf("Enter the numbers: ");
+    scanf("%d", &n);
+    int arr[n*2];
+    int product;
+    int i;
 
-    printf("Enter first number - ");
-    scanf("%d",&one);
-
-    printf("Enter second number - ");
-    scanf("%d",&two);
-
-    multiply = one * two;
-
-    printf("The multiplication of numbers %d and %d is %d",one,two,multiply);
+    for (i = 0; i < n*2; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
+    for(i = 0; i < n*2; i+=2);
+    {
+        product = arr[i] * arr[i+=2];
+        printf("The product is: %d", product);
+    }
 
     return 0;
 
