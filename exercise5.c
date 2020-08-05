@@ -5,20 +5,24 @@
 int main()
 {
     int num;
+    int n = 10;
     int pow;
     int product = 1;
     int i;
-    for(i = 0; i < ; i++)
+    int p;
+    for(i = 0; i < n; i++)
     {
         printf("\nEnter the number: ");
         scanf("%d", &num);
         printf("Enter the power: ");
         scanf("%d", &pow);
-        for(i = 0; i < pow; i++)
+        for(p = 0; p < pow; p++)
         {
             product = num * product;
         }
-        printf("The product is: %d", product);
+        printf("The product is: %d\n", product);
     }
+
+
     return 0;
 }
