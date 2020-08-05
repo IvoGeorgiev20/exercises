@@ -10,14 +10,14 @@ int main()
     {
         int num;
         int pow;
-        int p;
         int product = 1;
         product = 1;
+        int j;
         printf("\nEnter the number: ");
         scanf("%d", &num);
         printf("Enter the power: ");
         scanf("%d", &pow);
-        for(p = 0; p < pow; p++)
+        for(j = 0; j < pow; j++)
         {
             product = num * product;
         }
