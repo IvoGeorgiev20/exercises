@@ -7,7 +7,9 @@ int main()
     int arr[100];
     int num;
     int pow;
-    int n = 2;
+    int n;
+    printf("Enter the n"):
+    scanf("%d", &n);
     int product;
     for(i = 0; i < n; i++)
     {
@@ -23,7 +25,7 @@ int main()
         {
             product = arr[i] * product;
         }
-            printf("The product is %d", product);
+        printf("The product is %d", product);
     }
 return 0;
 }
