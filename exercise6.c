@@ -2,23 +2,28 @@
 
 int main()
 {
-    int num;
-    int arr[4] = {1, 2, 3, 4};
-    int pow;
-    int product = 1;
     int i;
-    for(i = 0; i < arr; i++)
+    int j;
+    int arr[100];
+    int num;
+    int pow;
+    int n = 2;
+    int product;
+    for(i = 0; i < n; i++)
     {
-        scanf("%d ", arr);
-        for(i = 0; i < arr; i++)
-        {
-            scanf("%d ",pow);
-            for(i = 0; i < pow; i++)
-            {
-                product = num * product;
-            }
-        }
-        printf("The product is: %d", product);
+        printf("Enter the number of num: ");
+        scanf("%d", &arr[i]);
     }
-    return 0;
+    for(i = 0; i < n; i++)
+    {
+        product = 1;
+        printf("\nEnter the power: ");
+        scanf("%d", &pow);
+        for(j = 0; j < pow; j++)
+        {
+            product = arr[i] * product;
+        }
+            printf("The product is %d", product);
+    }
+return 0;
 }
