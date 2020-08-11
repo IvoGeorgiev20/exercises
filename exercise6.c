@@ -8,7 +8,7 @@ int main()
     int num;
     int pow;
     int n;
-    printf("Enter the n"):
+    printf("Enter the n: ");
     scanf("%d", &n);
     int product;
     for(i = 0; i < n; i++)
