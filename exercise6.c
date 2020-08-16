@@ -16,11 +16,7 @@ int main()
         printf("Enter the number of num: ");
         scanf("%d", &arr[i]);
     }
-    for(i = 0; i < n; i++)
-    {
-        product = 1;
-        printf("\nEnter the power: ");
-        scanf("%d", &pow);
+
         for(j = 0; j < pow; j++)
         {
             product = arr[i] * product;
