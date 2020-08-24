@@ -16,7 +16,7 @@ int main()
     }
     for(i = 0; i < n*2; i+=2)
     {
-        product = arr[i] * arr[i+=25];
+        product = arr[i] * arr[i+=2];
         printf("The product is: %d", product);
     }
 
